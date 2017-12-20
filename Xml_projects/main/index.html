@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width,initial-scale-1.0">
+        <title>Movie Rental</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body background="bgimage.jpg">
+        <nav id="nav_bar" class="navbar navbar-inverse navbar-static-top " role="navigation">
+            <div class="container-fluid">
+                <div class="navabar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href="index.html">ASBS Rentals!</a><br>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#order">Click here to order now!</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Click for more!<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#foot">about</a></li>                
+                                </ul>
+                </div>
+            </div>
+        </nav>
+            
+        <div class="jumbotron container" id="jumbo_trony">
+            <div class="container">
+                <img src="ss1.png" class="pull-left" id="D7" alt="Rental Home!">
+                <div class="smallPadding">              
+                    <div class="marginsAccurate">
+                        <h1><b class="jumbText">Welcome Home!</b></h1>
+                        <a href="#d3" class="btn btn-info btn-lg" role="button">Browse</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    <div class="row">         
+  <div class="col-md-4" id="d3">
+    <div class="thumbnail">
+      <img src="thormov.jpg" class="img-thumbnail" height="60px" alt="Dee">
+      <div class="caption">
+        <h3>Thor Ragnarok- ₹100</h3>
+        
+      </div>
+    </div>
+  </div>
+
+            
+  <div class="col-md-4 "  id="d5">
+    <div class="thumbnail">
+      <img src="spidyMovie.jpg" class="img-thumbnail" alt="Dee">
+      <div class="caption">
+        <h3>Spiderman Homecoming! - ₹100</h3>
+        
+      </div>
+    </div>
+  </div>
+            <div class="col-md-4" id="d10">
+    <div class="thumbnail">
+      <img src="justMovie.png" height="60px" class="img-thumbnail" alt="Dee">
+      <div class="caption">
+        <h3>Justice League! - ₹100</h3>
+        </div>
+    </div>
+  </div>
+    <a href="main.php"><button class="btn btn-info btn-block" id="order" role="button"><b>Order now!</b></button></a>
+</div>
+            
+            <!-- fOOTER-->
+            <footer class="siteFooter" id="foot">
+                <div class="container">
+                    <div class="row"><p>  Developed for xml project, sacrificing studies in exam time!</p>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="col-md5">@Copyright 2017</div>
+                    <div class="col-md7">AINC productions, developed by ASBS</div>
+                </div>
+            </footer>
+            
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    </body>
+</html>

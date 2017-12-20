@@ -1,0 +1,16 @@
+rental {
+    display: block;
+    font-size: 80%;
+    color: white;
+    display:block;
+}
+
+movie {
+    background-color: #ffffff;
+    width: 100%;
+}
+movie_name {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}

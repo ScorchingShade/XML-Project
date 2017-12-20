@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xstyle.css"?>
+
+[!DOCTYPE rental [
+<!ELEMENTS rental(movie*)>
+<!ELEMENTS movie(movie_name*)>
+<!ELEMENT movie_name(#PCDATA)>
+
+]>
+<rental>
+    <movie>
+        <movie_name>Please select a movie</movie_name>
+    </movie>
+	<movie>
+		<movie_name>You just purchased Thor</movie_name>
+	</movie>
+	<movie>
+		<movie_name>You just purchased Thor</movie_name>
+	</movie>
+	<movie>
+		<movie_name>You just purchased Justice League</movie_name>
+	</movie>
+</rental>

@@ -1,0 +1,100 @@
+.noPadding{
+    padding: 0px;
+}
+
+.noMargin{
+    margin: 0px;
+}
+.smallPadding{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.marginLeft{
+    margin: 30px;
+}
+.thumbnail img:hover{
+    transform: scale(1.1);
+}
+
+.thumbnail img:hover{
+    transition: all 0.3s ease 0s;
+    width:100%;
+}
+
+.siteFooter{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.bottom-footer{
+    border-top: 1px solid #b2b2b2;
+    color: #b2b2b2;
+}
+
+.marginsAccurate{
+    margin-top: 120px;
+    margin-left: 830px;
+    
+}
+
+.blackBorder{
+    border: 1130px;
+    border-color: black
+}
+
+#nav_bar {
+background-color: black;
+border-color: dodgerblue;
+}
+
+#jumbo_tron {
+    margin-top: 0px;
+     background: linear-gradient(darkblue, black);
+    border-color: darkblue;
+    
+}
+
+.jumbText{
+    color: white;
+}
+
+#order{
+     background: linear-gradient(to bottom right,darkblue, black);
+     border-color: darkblue;
+    color: white;
+    font-size: 20px;
+}
+
+movie{
+    font-size: 80%;
+    color: white;
+    display:block;
+}
+
+.box{
+     padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: white;
+    max-width: 100%;
+    font-size: 30px;
+    background-color: linear-gradient(darkblue,black);
+}
+
+.customText{
+    color: white;
+}
+
+.centrebanner{
+  width: 100%;
+  z-index: 0;
+}
+
+#jumbo_trony {
+    margin-top: 0px;
+     background: rgba(54, 54, 104, 0.5); 
+    border-color: darkblue;
+    
+}
